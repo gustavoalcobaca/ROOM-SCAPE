@@ -1,0 +1,102 @@
+[gd_scene format=3 uid="uid://c4wsagcpu2o6x"]
+
+[ext_resource type="Texture2D" uid="uid://4tmab0xpw7fk" path="res://Assets/backgraun.jpg" id="1_dbhuk"]
+[ext_resource type="Script" uid="uid://bgbyw4rk12ee" path="res://Script/telainicial.gd" id="1_n3i83"]
+
+[sub_resource type="Animation" id="Animation_n3i83"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Fade:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_d0r63"]
+resource_name = "entrar_pc"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Fade:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0.28235295), Color(0, 0, 0, 0.93333334), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jb0m0"]
+_data = {
+&"RESET": SubResource("Animation_n3i83"),
+&"entrar_pc": SubResource("Animation_d0r63")
+}
+
+[node name="telainicial" type="Control" unique_id=709281143]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 44.0
+offset_bottom = 38.0
+script = ExtResource("1_n3i83")
+
+[node name="Main" type="TextureRect" parent="." unique_id=2104655490]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -25.0
+offset_top = -285.0
+offset_right = 999.0
+offset_bottom = 739.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_dbhuk")
+stretch_mode = 6
+metadata/_edit_lock_ = true
+
+[node name="BotaoComputador" type="TextureButton" parent="." unique_id=1376744227]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 323.0
+offset_top = 281.0
+offset_right = 613.0
+offset_bottom = 462.0
+
+[node name="Button_porta_sala" type="TextureButton" parent="." unique_id=1303625404]
+layout_mode = 0
+offset_left = 852.0
+offset_top = 114.0
+offset_right = 895.0
+offset_bottom = 304.0
+
+[node name="Fade" type="ColorRect" parent="." unique_id=366235774]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -5.0
+offset_top = -4.0
+offset_right = 974.0
+offset_bottom = 458.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=709201132]
+libraries/ = SubResource("AnimationLibrary_jb0m0")
+
+[node name="Clique" type="Label" parent="." unique_id=1639400697]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

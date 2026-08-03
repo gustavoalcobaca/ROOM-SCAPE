@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://nj3dhvnnybis"]
+
+[ext_resource type="Texture2D" uid="uid://b771aflkbmc3x" path="res://Assets/corredor_salas.png" id="1_pd07x"]
+[ext_resource type="Script" uid="uid://ddju0iaehkyit" path="res://Script/corredor_salas.gd" id="1_x2d0w"]
+[ext_resource type="Texture2D" uid="uid://b0e08d4pb0117" path="res://Assets/botao-voltar.png" id="3_2nbjw"]
+
+[node name="Corredor salas" type="Control" unique_id=1486034941]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_x2d0w")
+
+[node name="Corredor salas" type="TextureRect" parent="." unique_id=1041899276]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 25.45
+anchor_bottom = 12.400001
+offset_left = -5.0
+offset_top = -5.0
+offset_bottom = -1.0000305
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_pd07x")
+expand_mode = 3
+metadata/_edit_lock_ = true
+
+[node name="Biologia" type="TextureButton" parent="." unique_id=357142951]
+layout_mode = 0
+offset_left = 193.0
+offset_top = 132.0
+offset_right = 320.0
+offset_bottom = 386.0
+
+[node name="Quimica" type="TextureButton" parent="." unique_id=1083956999]
+layout_mode = 0
+offset_left = 455.0
+offset_top = 133.0
+offset_right = 576.0
+offset_bottom = 387.0
+
+[node name="Fisica" type="TextureButton" parent="." unique_id=129531190]
+layout_mode = 0
+offset_left = 705.0
+offset_top = 133.0
+offset_right = 830.0
+offset_bottom = 386.0
+
+[node name="Clique" type="Label" parent="." unique_id=198033086]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="BotaoVoltar" type="TextureButton" parent="." unique_id=1664765916]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 44.0
+offset_right = 70.0
+offset_bottom = 87.0
+texture_normal = ExtResource("3_2nbjw")
+ignore_texture_size = true
+stretch_mode = 5
+
+[connection signal="pressed" from="Quimica" to="." method="_on_quimica_pressed"]
+[connection signal="pressed" from="Fisica" to="." method="_on_fisica_pressed"]
