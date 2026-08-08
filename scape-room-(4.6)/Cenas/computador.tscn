@@ -1,0 +1,356 @@
+[gd_scene format=3 uid="uid://cvxkqo33loo60"]
+
+[ext_resource type="Script" uid="uid://dkb8vuftnymo5" path="res://Script/computador.gd" id="1_utdne"]
+[ext_resource type="Texture2D" uid="uid://b0e08d4pb0117" path="res://Assets/botao-voltar.png" id="2_mrqev"]
+[ext_resource type="Texture2D" uid="uid://c684c0k8qraqo" path="res://Assets/REDIMENCIONADA.png" id="2_utdne"]
+
+[sub_resource type="Animation" id="Animation_a6iff"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Fade:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_7xylp"]
+resource_name = "sair_pc"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Fade:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0.14509805), Color(0, 0, 0, 0.93333334), Color(0, 0, 0, 0.2)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_phbud"]
+_data = {
+&"RESET": SubResource("Animation_a6iff"),
+&"sair_pc": SubResource("Animation_7xylp")
+}
+
+[sub_resource type="SystemFont" id="SystemFont_utdne"]
+
+[sub_resource type="SystemFont" id="SystemFont_a6iff"]
+
+[sub_resource type="SystemFont" id="SystemFont_7xylp"]
+
+[sub_resource type="SystemFont" id="SystemFont_phbud"]
+
+[sub_resource type="SystemFont" id="SystemFont_7wrly"]
+
+[sub_resource type="SystemFont" id="SystemFont_onqhp"]
+
+[sub_resource type="SystemFont" id="SystemFont_ucg1f"]
+
+[sub_resource type="SystemFont" id="SystemFont_tfj3y"]
+
+[sub_resource type="SystemFont" id="SystemFont_n7caq"]
+
+[node name="Computador" type="Control" unique_id=1377238177]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_utdne")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1553781804]
+layout_mode = 0
+offset_left = 2.0
+offset_top = -30.0
+offset_right = 1016.0
+offset_bottom = 508.0
+texture = ExtResource("2_utdne")
+expand_mode = 3
+
+[node name="BotaoVoltar" type="TextureButton" parent="." unique_id=351160978]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 44.0
+offset_right = 70.0
+offset_bottom = 87.0
+texture_normal = ExtResource("2_mrqev")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1751666158]
+libraries/ = SubResource("AnimationLibrary_phbud")
+
+[node name="Boot" type="Control" parent="." unique_id=1311458020]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Logo" type="Label" parent="Boot" unique_id=1147126460]
+layout_mode = 0
+offset_left = 456.0
+offset_top = 101.0
+offset_right = 557.0
+offset_bottom = 156.0
+theme_override_colors/font_color = Color(0, 0.52218926, 1.4439225e-06, 1)
+theme_override_fonts/font = SubResource("SystemFont_utdne")
+theme_override_font_sizes/font_size = 40
+text = "ECOS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Terminal" type="RichTextLabel" parent="Boot" unique_id=674419556]
+layout_mode = 0
+offset_left = 289.0
+offset_top = 100.0
+offset_right = 749.0
+offset_bottom = 341.0
+scroll_following = true
+
+[node name="Clique" type="Label" parent="Boot" unique_id=1116024897]
+layout_mode = 0
+offset_top = 5.0
+offset_right = 32.0
+offset_bottom = 35.0
+
+[node name="NomeOperador" type="LineEdit" parent="Boot" unique_id=1591984768]
+layout_mode = 0
+offset_left = 290.0
+offset_top = 308.0
+offset_right = 470.0
+offset_bottom = 339.0
+
+[node name="EscolhaSerie" type="Control" parent="Boot" unique_id=1775927960]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Boot/EscolhaSerie" unique_id=778377692]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = ">>Selecione sua série<<"
+
+[node name="1ano" type="Button" parent="Boot/EscolhaSerie" unique_id=418447846]
+layout_mode = 0
+offset_left = 350.0
+offset_top = 308.0
+offset_right = 409.0
+offset_bottom = 339.0
+theme_override_colors/font_color = Color(0.2901961, 0.95686275, 0.13333334, 1)
+theme_override_fonts/font = SubResource("SystemFont_a6iff")
+text = "1° ano"
+
+[node name="2ano" type="Button" parent="Boot/EscolhaSerie" unique_id=1707678829]
+layout_mode = 0
+offset_left = 482.0
+offset_top = 308.0
+offset_right = 541.0
+offset_bottom = 339.0
+theme_override_colors/font_color = Color(0.2901961, 0.95686275, 0.13333334, 1)
+theme_override_fonts/font = SubResource("SystemFont_7xylp")
+text = "2° Ano"
+
+[node name="3ano" type="Button" parent="Boot/EscolhaSerie" unique_id=587750840]
+layout_mode = 0
+offset_left = 625.0
+offset_top = 308.0
+offset_right = 684.0
+offset_bottom = 339.0
+theme_override_colors/font_color = Color(0.2901961, 0.95686275, 0.13333334, 1)
+theme_override_fonts/font = SubResource("SystemFont_phbud")
+text = "3° Ano"
+
+[node name="Desktop" type="Control" parent="." unique_id=803284653]
+anchors_preset = 0
+offset_left = 97.0
+offset_top = 134.0
+offset_right = 137.0
+offset_bottom = 174.0
+
+[node name="Menu" type="Control" parent="Desktop" unique_id=1997960293]
+anchors_preset = 0
+offset_left = 43.0
+offset_top = 184.0
+offset_right = 83.0
+offset_bottom = 224.0
+
+[node name="Operador" type="Label" parent="Desktop/Menu" unique_id=645363844]
+layout_mode = 0
+offset_left = 149.0
+offset_top = -214.0
+offset_right = 306.0
+offset_bottom = -191.0
+
+[node name="Perfil" type="Label" parent="Desktop/Menu" unique_id=1212266632]
+layout_mode = 0
+offset_left = 149.0
+offset_top = -178.0
+offset_right = 253.0
+offset_bottom = -155.0
+
+[node name="ConteudoTitulo" type="Label" parent="Desktop/Menu" unique_id=132011914]
+layout_mode = 0
+offset_left = 149.0
+offset_top = -155.0
+offset_right = 199.0
+offset_bottom = -141.0
+theme_override_fonts/font = SubResource("SystemFont_7wrly")
+theme_override_font_sizes/font_size = 10
+text = "Conteúdo:"
+
+[node name="Conteudo" type="OptionButton" parent="Desktop/Menu" unique_id=1451704553]
+layout_mode = 0
+offset_left = 149.0
+offset_top = -136.0
+offset_right = 273.0
+offset_bottom = -116.0
+theme_override_font_sizes/font_size = 9
+
+[node name="LabelProgresso" type="Label" parent="Desktop/Menu" unique_id=1895227512]
+layout_mode = 0
+offset_left = 149.0
+offset_top = -109.0
+offset_right = 239.0
+offset_bottom = -95.0
+theme_override_fonts/font = SubResource("SystemFont_onqhp")
+theme_override_font_sizes/font_size = 10
+text = "Progresso da Série"
+
+[node name="ProgressoSerie" type="ProgressBar" parent="Desktop/Menu" unique_id=1783421733]
+layout_mode = 0
+offset_left = 149.0
+offset_top = -76.0
+offset_right = 280.0
+offset_bottom = -58.0
+theme_override_font_sizes/font_size = 10
+
+[node name="Estrelas" type="Label" parent="Desktop/Menu" unique_id=601474116]
+layout_mode = 0
+offset_left = 149.0
+offset_top = -37.0
+offset_right = 219.0
+offset_bottom = -14.0
+
+[node name="Moedas" type="Label" parent="Desktop/Menu" unique_id=777999355]
+layout_mode = 0
+offset_left = 149.0
+offset_top = -2.0
+offset_right = 219.0
+offset_bottom = 21.0
+
+[node name="Fisica" type="Button" parent="Desktop/Menu" unique_id=1658590289]
+layout_mode = 0
+offset_left = 445.0
+offset_top = -127.0
+offset_right = 565.0
+offset_bottom = -102.0
+theme_override_font_sizes/font_size = 12
+text = "FISICA"
+
+[node name="Quimica" type="Button" parent="Desktop/Menu" unique_id=766987209]
+layout_mode = 0
+offset_left = 445.0
+offset_top = -95.0
+offset_right = 565.0
+offset_bottom = -70.0
+theme_override_font_sizes/font_size = 12
+text = "QUÍMICA"
+
+[node name="Biologia" type="Button" parent="Desktop/Menu" unique_id=1293510795]
+layout_mode = 0
+offset_left = 445.0
+offset_top = -65.0
+offset_right = 565.0
+offset_bottom = -40.0
+theme_override_font_sizes/font_size = 12
+text = "BIOLOGIA"
+
+[node name="PainelMateria" type="Panel" parent="Desktop" unique_id=1266578072]
+layout_mode = 0
+offset_left = 187.0
+offset_top = -33.0
+offset_right = 649.0
+offset_bottom = 206.0
+
+[node name="NomeMateria" type="Label" parent="Desktop/PainelMateria" unique_id=1882042414]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 38.0
+offset_right = 110.0
+offset_bottom = 60.0
+theme_override_fonts/font = SubResource("SystemFont_ucg1f")
+theme_override_font_sizes/font_size = 15
+
+[node name="BarraMateria" type="ProgressBar" parent="Desktop/PainelMateria" unique_id=1026449751]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 81.0
+offset_right = 121.0
+offset_bottom = 101.0
+theme_override_fonts/font = SubResource("SystemFont_tfj3y")
+theme_override_font_sizes/font_size = 11
+
+[node name="TextoMateria" type="Label" parent="Desktop/PainelMateria" unique_id=1013975378]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 58.0
+offset_right = 93.0
+offset_bottom = 76.0
+theme_override_fonts/font = SubResource("SystemFont_n7caq")
+theme_override_font_sizes/font_size = 13
+
+[node name="Assuntos" type="RichTextLabel" parent="Desktop/PainelMateria" unique_id=1691531930]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 103.0
+offset_right = 185.0
+offset_bottom = 236.0
+theme_override_font_sizes/normal_font_size = 10
+theme_override_font_sizes/bold_font_size = 10
+theme_override_font_sizes/bold_italics_font_size = 10
+theme_override_font_sizes/italics_font_size = 10
+theme_override_font_sizes/mono_font_size = 10
+
+[node name="BotaoVoltar" type="Button" parent="Desktop/PainelMateria" unique_id=439985426]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 204.0
+offset_right = 288.0
+offset_bottom = 235.0
+theme_override_font_sizes/font_size = 16
+text = "VOLTAR"
+
+[node name="Fade" type="ColorRect" parent="." unique_id=2094264043]
+layout_mode = 0
+offset_left = -4.0
+offset_top = 1.0
+offset_right = 1009.0
+offset_bottom = 489.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+
+[node name="BotaoPerfil" type="Button" parent="." unique_id=1126338552]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="BotaoSair" type="Button" parent="." unique_id=1012682996]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[connection signal="text_submitted" from="Boot/NomeOperador" to="." method="_on_nome_operador_text_submitted"]
+[connection signal="pressed" from="Boot/EscolhaSerie/1ano" to="." method="_on_1ano_pressed"]
+[connection signal="pressed" from="Boot/EscolhaSerie/2ano" to="." method="_on_2ano_pressed"]
+[connection signal="pressed" from="Boot/EscolhaSerie/3ano" to="." method="_on_3ano_pressed"]
+[connection signal="item_selected" from="Desktop/Menu/Conteudo" to="." method="_on_conteudo_item_selected"]
+[connection signal="pressed" from="Desktop/Menu/Fisica" to="." method="_on_fisica_pressed"]
+[connection signal="pressed" from="Desktop/Menu/Quimica" to="." method="_on_quimica_pressed"]
+[connection signal="pressed" from="Desktop/Menu/Biologia" to="." method="_on_biologia_pressed"]
+[connection signal="pressed" from="Desktop/PainelMateria/BotaoVoltar" to="." method="_on_botao_voltar_pressed"]

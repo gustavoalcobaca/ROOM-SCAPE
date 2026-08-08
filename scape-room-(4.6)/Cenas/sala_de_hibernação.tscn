@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://ch3vnd2qcvlbh"]
+
+[ext_resource type="Script" uid="uid://td1gn7l13p7m" path="res://Script/sala_de_hibernação.gd" id="1_hmu40"]
+[ext_resource type="Texture2D" uid="uid://bvkfonuvxula8" path="res://Assets/Gemini_Generated_Image_2mingr2mingr2min.png" id="2_3i8nk"]
+
+[node name="Sala_de_hibernação" type="Control" unique_id=1781491253]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hmu40")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=149956639]
+layout_mode = 0
+offset_right = 1012.0
+offset_bottom = 487.0
+texture = ExtResource("2_3i8nk")
+expand_mode = 3
+
+[node name="BotaoVoltar" type="TextureButton" parent="." unique_id=1194830363]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
