@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dbuy4qrdfia6c"
+path="res://.godot/imported/universfield-gloomy-aura-153274.mp3-078157541250f5de5da9c12c080fbd27.mp3str"
+
+[deps]
+
+source_file="res://Pesquisas assets/universfield-gloomy-aura-153274.mp3"
+dest_files=["res://.godot/imported/universfield-gloomy-aura-153274.mp3-078157541250f5de5da9c12c080fbd27.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

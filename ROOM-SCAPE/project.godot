@@ -10,9 +10,13 @@ config_version=5
 
 [application]
 
-config/name="PIBIC 2026"
+config/name="SCAPE_ROOM"
 run/main_scene="res://Cenas/telainicial.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[audio]
+
+buses/default_bus_layout="uid://dfb3tsx7f0r1k"
 
 [autoload]
 
