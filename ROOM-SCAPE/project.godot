@@ -12,7 +12,7 @@ config_version=5
 
 config/name="SCAPE_ROOM"
 run/main_scene="res://Cenas/telainicial.tscn"
-config/features=PackedStringArray("4.7", "GL Compatibility")
+config/features=PackedStringArray("4.6", "GL Compatibility")
 
 [audio]
 
