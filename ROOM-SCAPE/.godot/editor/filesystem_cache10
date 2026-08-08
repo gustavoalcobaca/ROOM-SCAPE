@@ -2,14 +2,15 @@
 ::res://::1786205742
 default_bus_layout.tres::AudioBusLayout::7514005635317601434::1786198051::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1786204144::0::1::::<><><>0<>0<><>::
-::res://Assets/::1786204501
-backgraun.jpg::CompressedTexture2D::2075428338952694644::1786052927::1786204494::1::::<><><>0<>0<>7bb52c45471a853482f096a1488460cb<>res://.godot/imported/backgraun.jpg-23c84e3bb5803093d60000ac877e1d70.ctex::
+::res://Assets/::1786208646
 bota-voltar.png::CompressedTexture2D::4376189023386413369::1786052927::1786204494::1::::<><><>0<>0<>8e0e44675f334eb60d9defcf2f83ef1b<>res://.godot/imported/bota-voltar.png-e085194921650314304464954f0748a9.ctex::
 botao-voltar.png::CompressedTexture2D::4150976344731432692::1786052927::1786204494::1::::<><><>0<>0<>3bcd423c3e20dfcc8327a4e0a76105be<>res://.godot/imported/botao-voltar.png-a67a378ac304dc3f8c0b74c55f385136.ctex::
+computador redimencionado.png::CompressedTexture2D::2779552921501205078::1786208646::1786208648::1::::<><><>0<>0<>878d347035eac229201d4f056adc4c84<>res://.godot/imported/computador redimencionado.png-58648a8a7e9788ca980d877e9811a95d.ctex::
 corredor.png::CompressedTexture2D::8467774865444871164::1786052927::1786204495::1::::<><><>0<>0<>9e58482b41578f45f86ebfa15578c4f3<>res://.godot/imported/corredor.png-b6228dfc116fd0499136df7162cc8dc7.ctex::
 corredor_salas.png::CompressedTexture2D::4700102690117743047::1786052927::1786204497::1::::<><><>0<>0<>2e3fdffbb4b3a989778952178b1c02c3<>res://.godot/imported/corredor_salas.png-3a0873ab0e0dbba095bb7c2257954fde.ctex::
 Firefly_Gemini Flash_quero mudar so as dimenções da imagem pra 1013 x 488 mantendo a proporção relativa  d 483477.png::CompressedTexture2D::9093243563903966040::1786052927::1786204498::1::::<><><>0<>0<>88f44354a078372d582a9beec82a226a<>res://.godot/imported/Firefly_Gemini Flash_quero mudar so as dimenções da imagem pra 1013 x 488 mantendo a proporção relativa  d 483477.png-e82c9133bd2d868256fac42adb4cf979.ctex::
 IMG-20260713-WA0006.jpg::CompressedTexture2D::4643884658677489676::1786052927::1786204500::1::::<><><>0<>0<>5eef9bc7ba4eb52c86ce42d626b8b89d<>res://.godot/imported/IMG-20260713-WA0006.jpg-8724e51c6761c50b298806d8db857623.ctex::
+tela inicial redimencionada.png::CompressedTexture2D::6284526254930979132::1786207958::1786207959::1::::<><><>0<>0<>5ba30c22279b4782125004952a22679c<>res://.godot/imported/tela inicial redimencionada.png-cf42c2338cac133a9c37ba20400323ee.ctex::
 WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg::CompressedTexture2D::6653364410546408626::1786052927::1786204501::1::::<><><>0<>0<>75c914f6c49419cb9a559414f443781f<>res://.godot/imported/WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg-5fd94f63fecd5396e9a338e9ef83a968.ctex::
 ::res://Assets/AUDIO/::1786198049
 ::res://Assets/AUDIO/FBX/::1786204493

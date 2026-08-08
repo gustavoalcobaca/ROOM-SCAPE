@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2s3nmi250s1u"
-path="res://.godot/imported/Firefly_Gemini Flash_quero mudar so as dimenções da imagem pra 1013 x 488 mantendo a proporção relativa  d 483477.png-e82c9133bd2d868256fac42adb4cf979.ctex"
+uid="uid://bfuo3icy6j8p3"
+path="res://.godot/imported/computador redimencionado.png-58648a8a7e9788ca980d877e9811a95d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Firefly_Gemini Flash_quero mudar so as dimenções da imagem pra 1013 x 488 mantendo a proporção relativa  d 483477.png"
-dest_files=["res://.godot/imported/Firefly_Gemini Flash_quero mudar so as dimenções da imagem pra 1013 x 488 mantendo a proporção relativa  d 483477.png-e82c9133bd2d868256fac42adb4cf979.ctex"]
+source_file="res://Assets/computador redimencionado.png"
+dest_files=["res://.godot/imported/computador redimencionado.png-58648a8a7e9788ca980d877e9811a95d.ctex"]
 
 [params]
 

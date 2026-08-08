@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dkb8vuftnymo5" path="res://Script/computador.gd" id="1_utdne"]
 [ext_resource type="Texture2D" uid="uid://b0e08d4pb0117" path="res://Assets/botao-voltar.png" id="2_mrqev"]
-[ext_resource type="Texture2D" uid="uid://d2s3nmi250s1u" path="res://Assets/Firefly_Gemini Flash_quero mudar so as dimenções da imagem pra 1013 x 488 mantendo a proporção relativa  d 483477.png" id="2_utdne"]
+[ext_resource type="Texture2D" uid="uid://bfuo3icy6j8p3" path="res://Assets/computador redimencionado.png" id="2_utdne"]
 
 [sub_resource type="Animation" id="Animation_a6iff"]
 length = 0.001
@@ -66,12 +66,12 @@ script = ExtResource("1_utdne")
 
 [node name="Background" type="TextureRect" parent="." unique_id=1553781804]
 layout_mode = 0
-offset_left = -5.0
-offset_top = -3.0
-offset_right = 1019.0
-offset_bottom = 492.48386
+offset_left = 2.0
+offset_top = -30.0
+offset_right = 1016.0
+offset_bottom = 508.0
 texture = ExtResource("2_utdne")
-expand_mode = 5
+expand_mode = 3
 metadata/_edit_lock_ = true
 
 [node name="BotaoVoltar" type="TextureButton" parent="." unique_id=351160978]

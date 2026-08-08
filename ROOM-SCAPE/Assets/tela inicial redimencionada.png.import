@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4tmab0xpw7fk"
-path="res://.godot/imported/backgraun.jpg-23c84e3bb5803093d60000ac877e1d70.ctex"
+uid="uid://cvsjh18753m5q"
+path="res://.godot/imported/tela inicial redimencionada.png-cf42c2338cac133a9c37ba20400323ee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/backgraun.jpg"
-dest_files=["res://.godot/imported/backgraun.jpg-23c84e3bb5803093d60000ac877e1d70.ctex"]
+source_file="res://Assets/tela inicial redimencionada.png"
+dest_files=["res://.godot/imported/tela inicial redimencionada.png-cf42c2338cac133a9c37ba20400323ee.ctex"]
 
 [params]
 
