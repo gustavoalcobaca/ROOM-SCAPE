@@ -1,0 +1,35 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1786488359
+default_bus_layout.tres::AudioBusLayout::7514005635317601434::1786487382::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1786487382::0::1::::<><><>0<>0<><>::
+::res://Assets/::1786487382
+bota-voltar.png::CompressedTexture2D::4376189023386413369::1786487382::1786488362::1::::<><><>0<>0<>8e0e44675f334eb60d9defcf2f83ef1b<>res://.godot/imported/bota-voltar.png-e085194921650314304464954f0748a9.ctex::
+botao-voltar.png::CompressedTexture2D::4150976344731432692::1786487382::1786488362::1::::<><><>0<>0<>3bcd423c3e20dfcc8327a4e0a76105be<>res://.godot/imported/botao-voltar.png-a67a378ac304dc3f8c0b74c55f385136.ctex::
+corredor.jpeg::CompressedTexture2D::5603986709532696924::1786487382::1786488364::1::::<><><>0<>0<>78b4fec34de2600ff9246431d54dc0a3<>res://.godot/imported/corredor.jpeg-0affad4f7a3ba08d76833252d68e0a44.ctex::
+corredor_salas.jpeg::CompressedTexture2D::4627308898852062836::1786487382::1786488365::1::::<><><>0<>0<>120c757c0b9679077ab4d35afcd0639b<>res://.godot/imported/corredor_salas.jpeg-abae6b352fac8cfceb23c4ad62e2516a.ctex::
+Gemini_Generated_Image_2mingr2mingr2min.png::CompressedTexture2D::3881359478396198397::1786487382::1786488366::1::::<><><>0<>0<>96a9391616a8b242cf6ef116f52c8a36<>res://.godot/imported/Gemini_Generated_Image_2mingr2mingr2min.png-29c44304a051330d054c0a98765206fe.ctex::
+IMG-20260713-WA0006.jpg::CompressedTexture2D::4643884658677489676::1786487382::1786488367::1::::<><><>0<>0<>5eef9bc7ba4eb52c86ce42d626b8b89d<>res://.godot/imported/IMG-20260713-WA0006.jpg-8724e51c6761c50b298806d8db857623.ctex::
+REDIMENCIONADA.png::CompressedTexture2D::7018585680480432726::1786487382::1786488368::1::::<><><>0<>0<>6abfb68471af84377768caf7f69119f9<>res://.godot/imported/REDIMENCIONADA.png-73b048401d79987e05df72a8fdfe1565.ctex::
+tela inicial redimencionada.png::CompressedTexture2D::2681200604905978836::1786487382::1786488368::1::::<><><>0<>0<>83d6a16fbb5560b67def97c5e5c6ab2c<>res://.godot/imported/tela inicial redimencionada.png-cf42c2338cac133a9c37ba20400323ee.ctex::
+WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg::CompressedTexture2D::6653364410546408626::1786487382::1786488369::1::::<><><>0<>0<>75c914f6c49419cb9a559414f443781f<>res://.godot/imported/WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg-5fd94f63fecd5396e9a338e9ef83a968.ctex::
+::res://Assets/AUDIO/::1786487382
+::res://Assets/AUDIO/FBX/::1786487382
+sounthruck1.mp3::AudioStreamMP3::7048158150106295060::1786487382::1786488362::1::::<><><>0<>0<>442b44ff4dc4d437f0891a289dcaa1d9<>res://.godot/imported/sounthruck1.mp3-f3e6cf03279cb9eff7ce8176267594ed.mp3str::
+::res://Cenas/::1786487382
+computador.tscn::PackedScene::6294924294627284751::1786487382::0::1::::<><><>0<>0<><>::uid://dkb8vuftnymo5::::res://Script/computador.gd<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png<>uid://c684c0k8qraqo::::res://Assets/REDIMENCIONADA.png
+corredor.tscn::PackedScene::9067951313711278331::1786487382::0::1::::<><><>0<>0<><>::uid://dh2owt0x5urgb::::res://Script/corredor.gd<>uid://b66rdplt4f6km::::res://Assets/corredor_salas.jpeg<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
+corredor_salas.tscn::PackedScene::932740200973456022::1786487382::0::1::::<><><>0<>0<><>::uid://ddju0iaehkyit::::res://Script/corredor_salas.gd<>uid://cl3u3v04bjpku::::res://Assets/corredor.jpeg<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
+sala_de_fisica.tscn::PackedScene::1355242266290617372::1786487382::0::1::::<><><>0<>0<><>::uid://dlse5a275xb1n::::res://Script/sala_de_fisica.gd<>uid://c11667m3qoo1w::::res://Assets/WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
+sala_de_hibernação.tscn::PackedScene::5323264322145209181::1786487382::0::1::::<><><>0<>0<><>::uid://td1gn7l13p7m::::res://Script/sala_de_hibernação.gd<>uid://bvkfonuvxula8::::res://Assets/Gemini_Generated_Image_2mingr2mingr2min.png
+sala_de_quimica.tscn::PackedScene::9186470963777175383::1786487382::0::1::::<><><>0<>0<><>::uid://dwk3vyybpxxmr::::res://Script/sala_de_quimica.gd<>uid://b7fsdp0bwi1qe::::res://Assets/IMG-20260713-WA0006.jpg<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
+telainicial.tscn::PackedScene::6854827368287298917::1786487382::0::1::::<><><>0<>0<><>::uid://bgbyw4rk12ee::::res://Script/telainicial.gd<>uid://beg18np0ksv8o::::res://Assets/tela inicial redimencionada.png<>uid://c7ogeubnivpge::::res://Assets/AUDIO/FBX/sounthruck1.mp3
+::res://Script/::1786487382
+BancoMaterias.gd::GDScript::5902129026352045507::1786487382::0::1::::<>Node<><>0<>0<><>::
+computador.gd::GDScript::7865257086719610970::1786487382::0::1::::<>Control<><>0<>0<><>::
+corredor.gd::GDScript::7707212518919455921::1786487382::0::1::::<>Control<><>0<>0<><>::
+corredor_salas.gd::GDScript::7389667386861208259::1786487382::0::1::::<>Control<><>0<>0<><>::
+dados_operador.gd::GDScript::7509163586665307675::1786487382::0::1::::<>Node<><>0<>0<><>::
+sala_de_fisica.gd::GDScript::7968794615663597021::1786487382::0::1::::<>Control<><>0<>0<><>::
+sala_de_hibernação.gd::GDScript::1341371251733098600::1786487382::0::1::::<>Control<><>0<>0<><>::
+sala_de_quimica.gd::GDScript::8725799263828198093::1786487382::0::1::::<>Control<><>0<>0<><>::
+telainicial.gd::GDScript::82679887308725064::1786487382::0::1::::<>Control<><>0<>0<><>::
