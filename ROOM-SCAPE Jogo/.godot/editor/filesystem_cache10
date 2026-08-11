@@ -1,37 +1,37 @@
-78098b89c88a74ebe8c20117b8754620
-::res://::1786375036
-default_bus_layout.tres::AudioBusLayout::7514005635317601434::1786374393::0::1::::<><><>0<>0<><>::
-README.md::TextFile::-1::1786374393::0::1::::<><><>0<>0<><>::
-::res://Assets/::1786374411
-bota-voltar.png::CompressedTexture2D::4376189023386413369::1786374393::1786375038::1::::<><><>0<>0<>8e0e44675f334eb60d9defcf2f83ef1b<>res://.godot/imported/bota-voltar.png-e085194921650314304464954f0748a9.ctex::
-botao-voltar.png::CompressedTexture2D::4150976344731432692::1786374393::1786375038::1::::<><><>0<>0<>3bcd423c3e20dfcc8327a4e0a76105be<>res://.godot/imported/botao-voltar.png-a67a378ac304dc3f8c0b74c55f385136.ctex::
-computador redimencionado.png::CompressedTexture2D::2779552921501205078::1786374393::1786375038::1::::<><><>0<>0<>878d347035eac229201d4f056adc4c84<>res://.godot/imported/computador redimencionado.png-58648a8a7e9788ca980d877e9811a95d.ctex::
-corredor.png::CompressedTexture2D::8467774865444871164::1786374393::1786375038::1::::<><><>0<>0<>9e58482b41578f45f86ebfa15578c4f3<>res://.godot/imported/corredor.png-b6228dfc116fd0499136df7162cc8dc7.ctex::
-corredor_salas.png::CompressedTexture2D::4700102690117743047::1786374393::1786375038::1::::<><><>0<>0<>2e3fdffbb4b3a989778952178b1c02c3<>res://.godot/imported/corredor_salas.png-3a0873ab0e0dbba095bb7c2257954fde.ctex::
-IMG-20260713-WA0006.jpg::CompressedTexture2D::4643884658677489676::1786374393::1786375038::1::::<><><>0<>0<>5eef9bc7ba4eb52c86ce42d626b8b89d<>res://.godot/imported/IMG-20260713-WA0006.jpg-8724e51c6761c50b298806d8db857623.ctex::
-tela inicial redimencionada.png::CompressedTexture2D::6284526254930979132::1786374393::1786375038::1::::<><><>0<>0<>5ba30c22279b4782125004952a22679c<>res://.godot/imported/tela inicial redimencionada.png-cf42c2338cac133a9c37ba20400323ee.ctex::
-WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg::CompressedTexture2D::6653364410546408626::1786374393::1786375038::1::::<><><>0<>0<>75c914f6c49419cb9a559414f443781f<>res://.godot/imported/WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg-5fd94f63fecd5396e9a338e9ef83a968.ctex::
-::res://Assets/AUDIO/::1786374411
-::res://Assets/AUDIO/FBX/::1786374411
-sounthruck1.mp3::AudioStreamMP3::7048158150106295060::1786374393::1786375038::1::::<><><>0<>0<>442b44ff4dc4d437f0891a289dcaa1d9<>res://.godot/imported/sounthruck1.mp3-f3e6cf03279cb9eff7ce8176267594ed.mp3str::
-::res://Cenas/::1786374411
-computador.tscn::PackedScene::6294924294627284751::1786374393::0::1::::<><><>0<>0<><>::uid://dkb8vuftnymo5::::res://Script/computador.gd<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png<>uid://bfuo3icy6j8p3::::res://Assets/computador redimencionado.png
-corredor.tscn::PackedScene::9067951313711278331::1786374393::0::1::::<><><>0<>0<><>::uid://dh2owt0x5urgb::::res://Script/corredor.gd<>uid://dsv4argx8prj5::::res://Assets/corredor.png<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
-corredor_salas.tscn::PackedScene::932740200973456022::1786374393::0::1::::<><><>0<>0<><>::uid://b771aflkbmc3x::::res://Assets/corredor_salas.png<>uid://ddju0iaehkyit::::res://Script/corredor_salas.gd<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
-sala_de_fisica.tscn::PackedScene::1355242266290617372::1786374393::0::1::::<><><>0<>0<><>::uid://dlse5a275xb1n::::res://Script/sala_de_fisica.gd<>uid://c11667m3qoo1w::::res://Assets/WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
-sala_de_quimica.tscn::PackedScene::9186470963777175383::1786374393::0::1::::<><><>0<>0<><>::uid://dwk3vyybpxxmr::::res://Script/sala_de_quimica.gd<>uid://b7fsdp0bwi1qe::::res://Assets/IMG-20260713-WA0006.jpg<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
-telainicial.tscn::PackedScene::6854827368287298917::1786374393::0::1::::<><><>0<>0<><>::uid://bgbyw4rk12ee::::res://Script/telainicial.gd<>uid://cvsjh18753m5q::::res://Assets/tela inicial redimencionada.png<>uid://c7ogeubnivpge::::res://Assets/AUDIO/FBX/sounthruck1.mp3
-::res://Pesquisas assets/::1786374411
-figure-explores-advanced-cryogenic-chambers-futuristic-hibernation-lab-371671390.webp::CompressedTexture2D::5428015848378147013::1786374393::1786375038::1::::<><><>0<>0<>c23cb03598997913693ef911dfad61df<>res://.godot/imported/figure-explores-advanced-cryogenic-chambers-futuristic-hibernation-lab-371671390.webp-58d675659640d2bd1ebbb88ec67c9be9.ctex::
-images.jpeg::CompressedTexture2D::5432112586495735973::1786374393::1786375038::1::::<><><>0<>0<>45e172ae1e74267bdcc805717573fdb1<>res://.godot/imported/images.jpeg-8d0a111b3f08a0ab476e62b67ee200b7.ctex::
-labpestilim.jpeg::CompressedTexture2D::3441403141106381179::1786374393::1786375038::1::::<><><>0<>0<>00327e9de2cc1b97a8fbbc7714e582df<>res://.godot/imported/labpestilim.jpeg-346f01eb14f80e14b9965624edebf843.ctex::
-universfield-gloomy-aura-153274.mp3::AudioStreamMP3::7272248312426749008::1786374393::1786375038::1::::<><><>0<>0<>4f194f691c67447ac43c1fd52b85e61a<>res://.godot/imported/universfield-gloomy-aura-153274.mp3-078157541250f5de5da9c12c080fbd27.mp3str::
-::res://Script/::1786374411
-BancoMaterias.gd::GDScript::5902129026352045507::1786374393::0::1::::<>Node<><>0<>0<><>::
-computador.gd::GDScript::7865257086719610970::1786374393::0::1::::<>Control<><>0<>0<><>::
-corredor.gd::GDScript::7707212518919455921::1786374393::0::1::::<>Control<><>0<>0<><>::
-corredor_salas.gd::GDScript::7389667386861208259::1786374393::0::1::::<>Control<><>0<>0<><>::
-dados_operador.gd::GDScript::7509163586665307675::1786374393::0::1::::<>Node<><>0<>0<><>::
-sala_de_fisica.gd::GDScript::7968794615663597021::1786374393::0::1::::<>Control<><>0<>0<><>::
-sala_de_quimica.gd::GDScript::8725799263828198093::1786374393::0::1::::<>Control<><>0<>0<><>::
-telainicial.gd::GDScript::82679887308725064::1786374393::0::1::::<>Control<><>0<>0<><>::
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1786213200
+default_bus_layout.tres::AudioBusLayout::7514005635317601434::1786212233::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1786212233::0::1::::<><><>0<>0<><>::
+::res://Assets/::1786212233
+bota-voltar.png::CompressedTexture2D::4376189023386413369::1786212233::1786213205::1::::<><><>0<>0<>8e0e44675f334eb60d9defcf2f83ef1b<>res://.godot/imported/bota-voltar.png-e085194921650314304464954f0748a9.ctex::
+botao-voltar.png::CompressedTexture2D::4150976344731432692::1786212233::1786213205::1::::<><><>0<>0<>3bcd423c3e20dfcc8327a4e0a76105be<>res://.godot/imported/botao-voltar.png-a67a378ac304dc3f8c0b74c55f385136.ctex::
+computador redimencionado.png::CompressedTexture2D::2779552921501205078::1786212233::1786213208::1::::<><><>0<>0<>878d347035eac229201d4f056adc4c84<>res://.godot/imported/computador redimencionado.png-58648a8a7e9788ca980d877e9811a95d.ctex::
+corredor.png::CompressedTexture2D::8467774865444871164::1786212233::1786213211::1::::<><><>0<>0<>9e58482b41578f45f86ebfa15578c4f3<>res://.godot/imported/corredor.png-b6228dfc116fd0499136df7162cc8dc7.ctex::
+corredor_salas.png::CompressedTexture2D::4700102690117743047::1786212233::1786213217::1::::<><><>0<>0<>2e3fdffbb4b3a989778952178b1c02c3<>res://.godot/imported/corredor_salas.png-3a0873ab0e0dbba095bb7c2257954fde.ctex::
+IMG-20260713-WA0006.jpg::CompressedTexture2D::4643884658677489676::1786212233::1786213225::1::::<><><>0<>0<>5eef9bc7ba4eb52c86ce42d626b8b89d<>res://.godot/imported/IMG-20260713-WA0006.jpg-8724e51c6761c50b298806d8db857623.ctex::
+tela inicial redimencionada.png::CompressedTexture2D::6284526254930979132::1786212233::1786213231::1::::<><><>0<>0<>5ba30c22279b4782125004952a22679c<>res://.godot/imported/tela inicial redimencionada.png-cf42c2338cac133a9c37ba20400323ee.ctex::
+WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg::CompressedTexture2D::6653364410546408626::1786212233::1786213239::1::::<><><>0<>0<>75c914f6c49419cb9a559414f443781f<>res://.godot/imported/WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg-5fd94f63fecd5396e9a338e9ef83a968.ctex::
+::res://Assets/AUDIO/::1786212233
+::res://Assets/AUDIO/FBX/::1786212233
+sounthruck1.mp3::AudioStreamMP3::7048158150106295060::1786212233::1786213204::1::::<><><>0<>0<>442b44ff4dc4d437f0891a289dcaa1d9<>res://.godot/imported/sounthruck1.mp3-f3e6cf03279cb9eff7ce8176267594ed.mp3str::
+::res://Cenas/::1786212233
+computador.tscn::PackedScene::6294924294627284751::1786212233::0::1::::<><><>0<>0<><>::uid://dkb8vuftnymo5::::res://Script/computador.gd<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png<>uid://bfuo3icy6j8p3::::res://Assets/computador redimencionado.png
+corredor.tscn::PackedScene::9067951313711278331::1786212233::0::1::::<><><>0<>0<><>::uid://dh2owt0x5urgb::::res://Script/corredor.gd<>uid://dsv4argx8prj5::::res://Assets/corredor.png<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
+corredor_salas.tscn::PackedScene::932740200973456022::1786212233::0::1::::<><><>0<>0<><>::uid://b771aflkbmc3x::::res://Assets/corredor_salas.png<>uid://ddju0iaehkyit::::res://Script/corredor_salas.gd<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
+sala_de_fisica.tscn::PackedScene::1355242266290617372::1786212233::0::1::::<><><>0<>0<><>::uid://dlse5a275xb1n::::res://Script/sala_de_fisica.gd<>uid://c11667m3qoo1w::::res://Assets/WhatsApp Image 2026-07-13 at 4.05.58 PM.jpeg<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
+sala_de_quimica.tscn::PackedScene::9186470963777175383::1786212233::0::1::::<><><>0<>0<><>::uid://dwk3vyybpxxmr::::res://Script/sala_de_quimica.gd<>uid://b7fsdp0bwi1qe::::res://Assets/IMG-20260713-WA0006.jpg<>uid://b0e08d4pb0117::::res://Assets/botao-voltar.png
+telainicial.tscn::PackedScene::6854827368287298917::1786212233::0::1::::<><><>0<>0<><>::uid://bgbyw4rk12ee::::res://Script/telainicial.gd<>uid://cvsjh18753m5q::::res://Assets/tela inicial redimencionada.png<>uid://c7ogeubnivpge::::res://Assets/AUDIO/FBX/sounthruck1.mp3
+::res://Pesquisas assets/::1786212233
+figure-explores-advanced-cryogenic-chambers-futuristic-hibernation-lab-371671390.webp::CompressedTexture2D::5428015848378147013::1786212233::1786213241::1::::<><><>0<>0<>c23cb03598997913693ef911dfad61df<>res://.godot/imported/figure-explores-advanced-cryogenic-chambers-futuristic-hibernation-lab-371671390.webp-58d675659640d2bd1ebbb88ec67c9be9.ctex::
+images.jpeg::CompressedTexture2D::5432112586495735973::1786212233::1786213242::1::::<><><>0<>0<>45e172ae1e74267bdcc805717573fdb1<>res://.godot/imported/images.jpeg-8d0a111b3f08a0ab476e62b67ee200b7.ctex::
+labpestilim.jpeg::CompressedTexture2D::3441403141106381179::1786212233::1786213243::1::::<><><>0<>0<>00327e9de2cc1b97a8fbbc7714e582df<>res://.godot/imported/labpestilim.jpeg-346f01eb14f80e14b9965624edebf843.ctex::
+universfield-gloomy-aura-153274.mp3::AudioStreamMP3::7272248312426749008::1786212233::1786213205::1::::<><><>0<>0<>4f194f691c67447ac43c1fd52b85e61a<>res://.godot/imported/universfield-gloomy-aura-153274.mp3-078157541250f5de5da9c12c080fbd27.mp3str::
+::res://Script/::1786212233
+BancoMaterias.gd::GDScript::5902129026352045507::1786212233::0::1::::<>Node<><>0<>0<><>::
+computador.gd::GDScript::7865257086719610970::1786212233::0::1::::<>Control<><>0<>0<><>::
+corredor.gd::GDScript::7707212518919455921::1786212233::0::1::::<>Control<><>0<>0<><>::
+corredor_salas.gd::GDScript::7389667386861208259::1786212233::0::1::::<>Control<><>0<>0<><>::
+dados_operador.gd::GDScript::7509163586665307675::1786212233::0::1::::<>Node<><>0<>0<><>::
+sala_de_fisica.gd::GDScript::7968794615663597021::1786212233::0::1::::<>Control<><>0<>0<><>::
+sala_de_quimica.gd::GDScript::8725799263828198093::1786212233::0::1::::<>Control<><>0<>0<><>::
+telainicial.gd::GDScript::82679887308725064::1786212233::0::1::::<>Control<><>0<>0<><>::
